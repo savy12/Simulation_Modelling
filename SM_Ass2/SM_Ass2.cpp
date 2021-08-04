@@ -60,26 +60,3 @@ int main()
     }
     return 0;
 }
-/*
-Input values for P and Q:
-125 150
-125 250
-150 250
-175 250
-175 300
-
-Output:
-125 150
-Total Cost for P= 125 and Q= 150 is 40383.8
-125 250
-Total Cost for P= 125 and Q= 250 is 42224.2
-150 250
-Total Cost for P= 150 and Q= 250 is 42053.2
-175 250
-Total Cost for P= 175 and Q= 250 is 40839.2
-175 300
-Total Cost for P= 175 and Q= 300 is 42254.2
-
-For reorder cost=2, minimum cost is for P= 125 and Q= 150.
-As reorder cost increases, more Q will have more cost.
-*/
